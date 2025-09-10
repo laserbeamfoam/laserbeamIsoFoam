@@ -1,0 +1,15 @@
+# 1 "Make/options"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 423 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "Make/options" 2
+EXE_INC = -DOPENFOAMESIORFOUNDATION -DOPENFOAMFOUNDATION -I$(LIB_SRC)/physicalProperties/lnInclude -I$(LIB_SRC)/thermophysicalModels/basic/lnInclude -I$(LIB_SRC)/thermophysicalModels/specie/lnInclude -I$(LIB_SRC)/thermophysicalModels/solidThermo/lnInclude -I$(LIB_SRC)/thermophysicalModels/thermophysicalProperties/lnInclude -I$(LIB_SRC)/thermophysicalModels/reactionThermo/lnInclude -I$(LIB_SRC)/finiteVolume/lnInclude -I$(LIB_SRC)/meshTools/lnInclude
+
+
+# 12 "Make/options"
+LIB_LIBS = -lfluidThermophysicalModels -lspecie -lsolidThermo -lthermophysicalProperties -lfiniteVolume -lmeshTools
+
+
+# options
